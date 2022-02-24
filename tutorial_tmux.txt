@@ -1,0 +1,26 @@
+tmux
+"C-b  creating split with %    [C-b %]
+"C-d  removing split widow     [C-d]
+"C-left or right               [C-L][C-R]
+"C-b  create mew window        [C-b c]
+"C-b n move to next window     [C-b n]
+"C-b p move to prev window     [C-b p]
+"C-b z  will make full screen  [C-b z]
+"C-b C-<arrow key>
+"C-b , rename current window
+"tmux ls list all tmux seesion 0:2 windows
+"tmux attach -t 0
+"tmux new -s database "create new session with the name "database"
+"tmux rename-session -t 0 database
+
+
+download
+https://github.com/tmux/tmux/releases
+
+sudo apt-get install build-essential
+sude apt-get install libevent-dev libncurses-dev
+tar -zxvf tmux-1.8.tar.gz
+cd tmux-1.8
+./configure
+make
+sudo make install
