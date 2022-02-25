@@ -1146,4 +1146,11 @@ request
                  git branch -d experimental
                  
                  
-                 
+[ started with commited Working Copy &
+  But added unwanted file due to simulation run &
+  how to save only comitted on]
+                git branch < my branch >
+                git reset --hard
+                run simulation
+                delete file previously exist
+                git reset --hard
